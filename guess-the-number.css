@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100vw;
+    display: grid;
+    place-content: center;
+}
+
+.wrapper{
+    width: 70vw;
+    background-color: rgb(36, 36, 36);
+    border-radius: 20px;
+    box-shadow:  0px 4px 20px, 0px -1px 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.suggestion{
+    padding: 30px;
+}
+
+.suggestion h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.suggestion p{
+    margin-top: 20px;
+    font-size: larger;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+#guessField{
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow:  0px 1px 5px white;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 24px;
+}
+
+#sbmt{
+    padding: 8px;
+    border-radius: 5px;
+    width: 20vw;
+    color: #fff;
+    background-color: blueviolet;
+    outline: none;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    box-shadow:  0px 1px 7px rgb(255, 51, 51);
+}
+
+.resultParas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.lowOrHi{
+    padding: 15px;
+    font-weight: 800;
+    font-size: 23px;
+    background-color: #00ddff;
+    width: 100%;
+    border-radius: 10px;
+    color: rgb(12, 0, 78);
+    display: none;
+}
+
+#playAgain{
+    padding: 8px;
+    border-radius: 5px;
+    width: 20vw;
+    font-weight: 800;
+    color: #060061;
+    background-color: rgb(43, 226, 55);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow:  0px 1px 7px rgb(255, 51, 51);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: none;
+}
